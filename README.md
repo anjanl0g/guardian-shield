@@ -29,13 +29,21 @@ Guardian Shield requires Python 3 and several libraries.
     cd guardian-shield
     ```
 
-2.  **Install the dependencies:**
+2.  **Create and activate a virtual environment:**
 
     ```bash
-    pip install -r requirements.txt
+    python3 -m venv venv
+    source venv/bin/activate
     ```
 
-3.  **Run the application:**
+3.  **Install the dependencies:**
+
+    ```bash
+    pip3 install PyQt5 requests fpdf shlex or
+    pip3 install -r requirements.txt
+    ```
+
+4.  **Run the application:**
 
     ```bash
     python3 blueteam.py
